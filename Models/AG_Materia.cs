@@ -4,7 +4,8 @@ namespace AG_Materias.Models
 {
     public class AG_Materia
     {
-        int Id { get; set; }
+        [Key]
+        int AG_MateriaId { get; set; }
         public string materia { get; set; }
         public string name { get; set; }
         public bool aprobado { get; set; }
